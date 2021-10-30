@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style/style.css" />
+        <script src="js/script.js"> </script>
+    </head>
+
+    <body>
+        <div id="mainDiv">
+            <div id="resultado">
+                <p id="texto"> </p>
+            </div>
+
+            <div id="botoesNumeros">
+                <div style="margin:2px 10px 10px 10px;
+                            height: 60px;">
+                    <button type="button" id="1" onClick="alterarTexto(this.id)">1</button>
+                    <button type="button" id="2" onClick="alterarTexto(this.id)">2</button>
+                    <button type="button" id="3" onClick="alterarTexto(this.id)">3</button>
+                </div>
+
+                <div style="margin:2px 10px 10px 10px;
+                            height:60px;">
+
+                    <button type="button" id="4"  onClick="alterarTexto(this.id)">4</button>
+                    <button type="button" id="5"  onClick="alterarTexto(this.id)">5</button>
+                    <button type="button" id="6" onClick="alterarTexto(this.id)">6</button>
+                </div>
+                
+                <div style="margin:2px 10px 10px 10px;
+                            height:60px;">
+
+                    <button type="button" id="7" onClick="alterarTexto(this.id)">7</button>
+                    <button type="button" id="8" onClick="alterarTexto(this.id)">8</button>
+                    <button type="button" id="9" onClick="alterarTexto(this.id)">9</button>
+                </div>
+
+                <div style="margin:auto;
+                            height:60px;
+                            width:120px;">
+                    <button type="button" id="0" onClick="alterarTexto(this.id)"">0</button>
+                    <button type="button" id="0" onClick="limparTudo()" style="float:right;">C</button>
+
+
+                </div>
+            </div>
+
+            <div id="botoesOperacoes">
+                <button type="button" id="adicao" onClick="escolherOp(this.id)">+</button>
+                <button type="button" id="subs" onClick="escolherOp(this.id)">-</button>
+                <button type="button" id="multi" onClick="escolherOp(this.id)">*</button>
+                <button type="button" id="divisao" onClick="escolherOp(this.id)">/</button>
+
+                <button type="button" id="res" onClick="resFinal()" style="margin-top:20px;">=</button>
+            </div>
+        </div>
+    </body>
+
+</html>
